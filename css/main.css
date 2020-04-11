@@ -1,0 +1,26 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+/*first section-header */
+
+.header {
+    background-color: #fcdb00;
+    padding-top: 78px;
+    padding-bottom: 71px;
+}
+ul,li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    margin-top: 10px;
+}
+.menu__item {
+    margin: 0 57px;
+}
+.menu__item a {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
