@@ -1,12 +1,13 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    background-color: #fcdb00;
 }
 /*first section-header */
 
 .header {
     background-color: #fcdb00;
     padding-top: 78px;
-    padding-bottom: 71px;
+    padding-bottom: 0;
 }
 ul,li {
     display: block;
@@ -20,6 +21,10 @@ ul,li {
     color: black;
     padding-right: 60px
 }
+/*second block*/ 
+.Inspire {
+    background-color: #fcdb00;
+}
 .offer__title {
     font-weight: 700;
     color: black;
@@ -30,16 +35,19 @@ ul,li {
     color: #47493e;
     padding-top: 27px;
     font-size: 20px;
+    width: 400px;
+
 }
 
 .offer__text {
     font-size: 16px;
     color: #656151;
     padding-top: 27px;
+    font-weight: 400;
 }
 
 .offer {
-    padding-top: 132px;;
+    padding-top: 130px;
 }
 
 .icons__item a {
@@ -49,7 +57,32 @@ ul,li {
     padding-right: 40px;
 }
 
-.IPad {
+.ipad {
     display: block;
-    margin: 70px auto 0;
+    margin: 70px 0 108px 0;
 }
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.title__main {
+    color: black;
+    font-size: 32px;
+}
+.title__text {
+    font-size: 20px;
+    width: 734px;
+    margin: 0 auto;
+}
+.feature__text {
+    width: 205px;
+}
+.feature__icons {
+    color: black;
+    width: 36px;
+    height: 40px;
+    padding-right: 35px;
+}
+
+
