@@ -1,6 +1,5 @@
 body {
     font-family: 'PT Sans', sans-serif;
-    background-color: #fcdb00;
 }
 /*first section-header */
 
@@ -77,12 +76,69 @@ ul,li {
 }
 .feature__text {
     width: 205px;
+    color: #c1c1c1;
 }
 .feature__icons {
     color: black;
-    width: 36px;
-    height: 40px;
     padding-right: 35px;
+    font-size: 45px !important;
+
 }
+.feature__title {
+    font-size: 22px;
+    color: black;
+}
+.feature {
+    margin-bottom: 70px;
+}
+.features {
+    background-color: white;
+}
+.keep__main {
+    color: #fcdb00;
+    font-size: 32px;
+    padding-top: 97px;
+}
+.keep__text {
+    color: #777777;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.touch {
+    background-color: #010101;
+}
+.footer {
+    background-color: black;
+}
+.form {
+    text-align: center;
+    padding-top: 25px;
+}
+.form__input {
+    width: 580px;
+    height: 52px;
+    background-color: white;
+    border-radius: 5px;
+    padding:0 20px 0 0px;
+    outline: none;
+    border-color: white;
 
-
+}
+.form__button {
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 125px;
+    height: 50px;
+    margin-left: 20px;
+    border-color: #fcdb00;
+}
+.credits__text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 56px;
+    color: #f5f5f5;
+    padding-bottom: 105px;
+}
