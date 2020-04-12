@@ -20,4 +20,36 @@ ul,li {
     color: black;
     padding-right: 60px
 }
+.offer__title {
+    font-weight: 700;
+    color: black;
+    font-size: 32px;
+}
+.offer__intro {
+    font-weight: 400;
+    color: #47493e;
+    padding-top: 27px;
+    font-size: 20px;
+}
 
+.offer__text {
+    font-size: 16px;
+    color: #656151;
+    padding-top: 27px;
+}
+
+.offer {
+    padding-top: 132px;;
+}
+
+.icons__item a {
+    color: black;
+    font-size: 40px;
+    transition: all 0.3s lase;
+    padding-right: 40px;
+}
+
+.IPad {
+    display: block;
+    margin: 70px auto 0;
+}
