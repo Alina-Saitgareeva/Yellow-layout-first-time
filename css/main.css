@@ -173,14 +173,23 @@ li {
     }
     .offer {
         text-align: center;
-
     }
+    
     .offer__text {
         margin:  auto;
         width: 100%;
     }
+    .offer__intro {
+        width: 100%
+    }
+    .offer__title {
+        width: 100%
+    }
     .icons {
         justify-content-center;
+    }
+    .icons__item a {
+        text-align: center;
     }
     .form__input {
         margin-right: auto;
@@ -192,7 +201,7 @@ li {
     .title__text {
         width: auto;
     }
-    .icons__item:nth-child(3) {
+    .icons__item a:nth-child(3) {
         margin-right: 0;
     }
     .inspire {
@@ -204,9 +213,11 @@ li {
     .menu {
         margin-top: 40px;
         text-align: center;
+        justify-content: center;
     }
     .menu__item a:nth-child(3) {
-        padding-right: 0;
+        padding-right: 0px;
+        margin-right: 0px;
     }
 }
 
