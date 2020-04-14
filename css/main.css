@@ -164,3 +164,66 @@ li {
     color: #f5f5f5;
     padding-bottom: 105px;
 }
+/*media-content*/
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .offer {
+        text-align: center;
+
+    }
+    .offer__text {
+        margin:  auto;
+        width: 100%;
+    }
+    .icons {
+        justify-content-center;
+    }
+    .form__input {
+        margin-right: auto;
+        width: 100%;
+    }
+    .form__button {
+        margin-top: 10px;
+    }
+    .title__text {
+        width: auto;
+    }
+    .icons__item:nth-child(3) {
+        margin-right: 0;
+    }
+    .inspire {
+        text-align: center;
+    }
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .menu__item a:nth-child(3) {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .icons__item {
+        justify-content-center;
+    }
+}
