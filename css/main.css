@@ -8,7 +8,8 @@ body {
     padding-top: 78px;
     padding-bottom: 0;
 }
-ul,li {
+ul,
+li {
     display: block;
     padding: 0;
     margin: 0;
@@ -17,16 +18,21 @@ ul,li {
 .menu__item a {
     font-size: 20px;
     font-weight: 700;
-    color: black;
-    padding-right: 60px
+    color: #010101;
+    padding-right: 60px;
+    
+}
+.menu__item a:hover {
+    text-decoration: none;
+    color: #777777;
 }
 /*second block*/ 
-.Inspire {
+.inspire {
     background-color: #fcdb00;
 }
 .offer__title {
     font-weight: 700;
-    color: black;
+    color: #010101;
     font-size: 32px;
 }
 .offer__intro {
@@ -50,23 +56,29 @@ ul,li {
 }
 
 .icons__item a {
-    color: black;
+    color: #010101;
     font-size: 40px;
     transition: all 0.3s lase;
-    padding-right: 40px;
+    margin-right: 40px;
 }
+.icons__item a:hover {
+    text-decoration: none;
+    color: #777777;
+}
+/*changed to margin*/
 
 .ipad {
     display: block;
     margin: 70px 0 108px 0;
 }
+/*third block*/ 
 .title {
     padding-top: 100px;
     padding-bottom: 70px;
 }
 
 .title__main {
-    color: black;
+    color: #010101;
     font-size: 32px;
 }
 .title__text {
@@ -79,21 +91,22 @@ ul,li {
     color: #c1c1c1;
 }
 .feature__icons {
-    color: black;
+    color: #010101;
     padding-right: 35px;
     font-size: 45px !important;
 
 }
 .feature__title {
     font-size: 22px;
-    color: black;
+    color: #010101;
 }
 .feature {
     margin-bottom: 70px;
 }
 .features {
-    background-color: white;
+    background-color: #f5f5f5;
 }
+/*fourth block*/
 .keep__main {
     color: #fcdb00;
     font-size: 32px;
@@ -107,8 +120,9 @@ ul,li {
 .touch {
     background-color: #010101;
 }
+/*fifth block*/
 .footer {
-    background-color: black;
+    background-color: #010101;
 }
 .form {
     text-align: center;
@@ -134,6 +148,14 @@ ul,li {
     height: 50px;
     margin-left: 20px;
     border-color: #fcdb00;
+}
+/*for beauty*/ 
+.form__button:hover {
+    color: #797972;
+    outline: none;
+}
+.form__botton:active {
+    box-shadow: #777777;
 }
 .credits__text {
     font-size: 16px;
