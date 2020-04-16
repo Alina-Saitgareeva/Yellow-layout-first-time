@@ -131,11 +131,11 @@ li {
 .form__input {
     width: 580px;
     height: 52px;
-    background-color: white;
+    background-color: #f5f5f5;
     border-radius: 5px;
     padding:0 20px 0 0px;
     outline: none;
-    border-color: white;
+    border-color:#f5f5f5;
 
 }
 .form__button {
@@ -184,10 +184,7 @@ li {
     }
     .offer__title {
         width: 100%
-    }
-    .icons {
-        justify-content-center;
-    }
+    }    }
     .icons__item a {
         text-align: center;
     }
