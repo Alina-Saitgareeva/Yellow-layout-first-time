@@ -198,9 +198,7 @@ li {
     .title__text {
         width: auto;
     }
-    .icons__item a:nth-child(3) {
-        margin-right: 0;
-    }
+
     .inspire {
         text-align: center;
     }
